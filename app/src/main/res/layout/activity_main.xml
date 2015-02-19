@@ -1,0 +1,123 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:background="#ffa5ccc2" tools:context=".MainActivity"
+    android:columnCount="8"
+    android:rowCount="10">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alphabetPic"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:src="@drawable/alphabet_strip_long"
+        android:paddingBottom="40dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="40dp"
+        android:layout_columnSpan="6" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teacherPic"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_rowSpan="4"
+        android:src="@drawable/girl_elephant"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blackboardTopLeftPic"
+        android:src="@drawable/blackboard_top_left"
+        android:layout_column="1"
+        android:layout_row="3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blackboardTopPic"
+        android:src="@drawable/blackboard_top"
+        android:layout_row="3"
+        android:layout_column="3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blackboardTopRightPic"
+        android:layout_row="3"
+        android:layout_column="4"
+        android:src="@drawable/blackboard_top_right" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blackboardLeftPic"
+        android:src="@drawable/blackboard_left"
+        android:layout_column="1"
+        android:layout_row="4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blackboardBottomLeftPic"
+        android:src="@drawable/blackboard_bottom_left"
+        android:layout_column="1"
+        android:layout_row="5" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blackboardBottomPic"
+        android:layout_column="3"
+        android:layout_row="5"
+        android:src="@drawable/blackboard_bottom" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blackboardBottomRightPic"
+        android:src="@drawable/blackboard_bottom_right"
+        android:layout_row="5"
+        android:layout_column="4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blackboardRightPic"
+        android:src="@drawable/blackboard_right"
+        android:layout_column="4"
+        android:layout_row="4" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/blackboardPic"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:background="#72727472"
+        android:adjustViewBounds="false"
+        android:src="@drawable/lesson" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="6"
+        android:paddingTop="40dp"
+        android:paddingBottom="130dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Audio"
+            android:id="@+id/testAudio"
+            android:layout_row="9"
+            android:layout_column="2" />
+    </LinearLayout>
+
+</GridLayout>
