@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#ffa5ccc2" tools:context=".MainActivity"
+    android:columnCount="8"
+    android:rowCount="10"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teacher"
+        android:src="@drawable/girl_elephant"
+        android:paddingLeft="50dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alphabetStrip"
+            android:src="@drawable/alphabet_strip_long"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="40dp" />
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="3"
+            android:columnCount="3"
+            android:id="@+id/blackboard"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blackboardTopLeft"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:src="@drawable/blackboard_top_left" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blackboardTop"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:src="@drawable/blackboard_top" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blackboardTopRight"
+                android:layout_column="2"
+                android:layout_row="0"
+                android:src="@drawable/blackboard_top_right" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blackboardLeft"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:src="@drawable/blackboard_left" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blackboardContent"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:src="@drawable/lesson" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blackboardRight"
+                android:layout_column="2"
+                android:layout_row="1"
+                android:src="@drawable/blackboard_right" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blackboardBottomLeft"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:src="@drawable/blackboard_bottom_left" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blackboardBottom"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:src="@drawable/blackboard_bottom" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blackboardBottomRight"
+                android:layout_column="2"
+                android:layout_row="2"
+                android:src="@drawable/blackboard_bottom_right" />
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
