@@ -28,7 +28,7 @@
 
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:rowCount="3"
             android:columnCount="3"
             android:id="@+id/blackboard"
@@ -80,7 +80,7 @@
                 android:id="@+id/blackboardRight"
                 android:layout_column="2"
                 android:layout_row="1"
-                android:src="@drawable/blackboard_right" />
+                android:src="@drawable/blackboard_right_w" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -107,6 +107,14 @@
                 android:src="@drawable/blackboard_bottom_right" />
 
         </GridLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Audio"
+            android:id="@+id/testAudio"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp" />
 
 
     </LinearLayout>
