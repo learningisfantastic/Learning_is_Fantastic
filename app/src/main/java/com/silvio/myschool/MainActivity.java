@@ -23,7 +23,6 @@ public class MainActivity extends Activity {
                 mediaPlayer.start(); // no need to call prepare(); create() does that for you
             }
         });
-
     }
 
 
